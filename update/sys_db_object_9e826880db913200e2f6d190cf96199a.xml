@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-02-27 13:12:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9e826880db913200e2f6d190cf96199a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Subscription</sys_name>

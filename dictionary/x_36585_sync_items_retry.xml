@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="retry" max_length="40" name="x_36585_sync_items_retry" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="payload" max_length="4000" name="payload" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Table Name" max_length="40" name="table_name" type="string"/>
+        <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
+        <element label="payload" max_length="4000" name="payload" type="string"/>
+        <element label="Table Name" max_length="40" name="table_name" type="string"/>
         <index name="index">
             <element name="company"/>
         </index>
