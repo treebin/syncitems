@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="log" max_length="40" name="x_36585_sync_items_log" type="collection">
+    <element label="Log" max_length="40" name="x_36585_sync_items_log" type="collection">
         <element label="Local Number" max_length="40" name="local_number" type="string"/>
         <element label="Remote Number" max_length="40" name="remote_number" type="string"/>
         <element label="Table Name" max_length="80" name="table_name" type="string"/>

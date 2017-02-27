@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="retry" max_length="40" name="x_36585_sync_items_retry" type="collection">
+    <element label="Retry" max_length="40" name="x_36585_sync_items_retry" type="collection">
         <element label="Company" max_length="32" name="company" reference="core_company" type="reference"/>
         <element label="payload" max_length="4000" name="payload" type="string"/>
         <element label="Table Name" max_length="40" name="table_name" type="string"/>
